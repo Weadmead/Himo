@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after{
+    box-sizing: inherit;
+}
+html,
+body {
+	height: 100%;
+}
+
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 18px;
+	background-color: #171919;
+	// overflow-x: hidden;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
